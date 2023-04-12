@@ -61,7 +61,8 @@ roi = double(roi(areaConstraint,:));
 
 
 % Show remaining bounding boxes after applying the area constraint.
-img = insertShape(I,"rectangle",roi);
+img1 = insertShape(I,"rectangle",roi);
 figure;
-imshow(img);
+imshow(img1);
+
 
