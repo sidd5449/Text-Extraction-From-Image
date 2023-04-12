@@ -1,5 +1,9 @@
 # Text-Extraction-From-Image
+#### Digital Image Processing T2 Assignment 
+#### Matlab is used 
+
 
 ##### Result
 
-![Screenshot 2023-04-11 231633](https://user-images.githubusercontent.com/96099806/231249580-e7be90cc-2a88-45fa-ac80-4916fec289a4.png)
+![Screenshot](https://user-images.githubusercontent.com/96099806/231427269-1031a1f9-2d88-438d-a4d0-18b312cf640c.png)
+
