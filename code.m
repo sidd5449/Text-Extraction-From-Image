@@ -1,5 +1,6 @@
-I = imread("test.jpg");
-I = im2gray(I);
+a = imread("test.jpg");
+b = imresize(a, 3);
+I = im2gray(b);
 
 figure
 imshow(I)
@@ -53,10 +54,11 @@ figure;
 imshow(img);
 
 % Define area constraint based on the area of smallest character of interest.
-areaConstraint = area == 252;
+areaConstraint = area == 2190;
 
 % Keep regions that meet the area constraint.
 roi = double(roi(areaConstraint,:));
+
 
 % Show remaining bounding boxes after applying the area constraint.
 img = insertShape(I,"rectangle",roi);
