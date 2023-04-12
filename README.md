@@ -1,6 +1,6 @@
 # Text-Extraction-From-Image
-
-Matlab is used 
+#### Digital Image Processing T2 Assignment 
+#### Matlab is used 
 
 
 ##### Result
